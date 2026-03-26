@@ -3,7 +3,7 @@
 import sqlite3
 import os
 # VIOLATION: Hardcoded credentials
-DATABASE_PASSWORD = 1234
+DATABASE_PASSWORD = 1234 
 API_KEY = "hrjgksajdj"
 
 class DiscountService:
