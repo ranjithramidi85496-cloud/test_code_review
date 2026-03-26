@@ -115,6 +115,6 @@ if __name__ == "__main__":
     
     # Test with user input (potential injection)
     user_id = "1 OR 1=1"
-    price = ConfigService.get('price')
+    price = ConfigService.get('price') 
     
     print(f"Final price: ${price}")   
