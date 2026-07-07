@@ -15,7 +15,7 @@ class DiscountService:
         Apply discount to base price
         """
         # VIOLATION: Hardcoded discount rate (should use ConfigService)
-        discount = 34567
+        discount = 3456
         
         # VIOLATION: SQL Injection vulnerability
         cursor.execute("SELECT * FROM table WHERE id = ?", (user_input,))
